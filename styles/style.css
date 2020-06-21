@@ -267,3 +267,115 @@ address > img {
     width: 30px;
 
 }
+
+@media (min-width:769px){
+    body > header > nav {
+        font-size: 16px;
+        padding:35px 35px 0px 35px;
+    }
+    body > header > nav > a > img {
+        width:150px;
+    }
+   .bg {
+        text-align: center;
+       /* background-image: url(/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg); */
+    }
+    .bg img {
+        width: 360px;
+        margin: 0 auto;
+    }
+    #intro-text p,h1{
+
+        width: 360px;
+        margin:0 auto;
+        margin-top:30px;
+    }
+   main {
+        padding-top: 10px;
+   }
+   .feature {
+       width:360px;
+       margin: 0;
+       display: inline-block;
+       padding: 20px;
+   }
+   .productivity {
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .productivity> img {
+       width: 360px;
+   }
+   .productivity > div {
+       width: 40%;
+   }
+   .openions {
+       display: flex;
+       justify-content: space-around;
+   }
+   .card {
+       width: 32%;
+       height: 330px;
+       padding-bottom: 0;
+   }
+   .card footer {
+       height: 50px;
+       margin-top: 20%;
+   }
+   .get-started {
+       max-width:560px;
+       margin:0 auto;
+       padding:50px;
+       height: 160px;
+   }
+   .get-started form {
+       display: flex;
+       justify-content: space-between;
+   }
+   .get-started form [type="email"] {
+        width:65%;
+   }
+   .get-started form [type="submit"] {
+       font-size: 10px;
+        width:30%;
+   }
+   .info {
+       display: flex;
+       justify-content: space-between;
+   }
+   .footer address{
+        width: 25%;
+        margin-right: 0;
+        grid-row-gap: 15px;
+   }
+   .footer address p {
+       height: 50px;
+   }
+   .footer .links {
+    display: inline-block;
+    text-align: center;
+
+    }
+    .social {
+        margin:auto 0;
+    }
+    .social img {
+        margin :5px;
+    }
+
+   
+}
+
+@media(min-width:960px){
+    header h1 {
+        font-size: 46px;
+        width: 70vw;
+    }
+    
+    main{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 40vh;
+    }
+}
+/*  */
